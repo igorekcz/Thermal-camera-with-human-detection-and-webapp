@@ -1,0 +1,6 @@
+{
+    "UDP_HOST": "192.168.8.101",
+    "UDP_PORT_LISTEN_SERVICE": 12056,
+    "opmode": "transmit",
+    "textFilePath": "./"
+}

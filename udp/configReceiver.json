@@ -1,0 +1,6 @@
+{
+    "UDP_HOST": "169.254.20.76",
+    "UDP_PORT_LISTEN_SERVICE": 12056,
+    "opmode": "receive",
+    "textFilePath": "./tempdata/"
+}

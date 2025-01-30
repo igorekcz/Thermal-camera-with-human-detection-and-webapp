@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Video Stream</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles_test.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>Pomiar i Wykrywanie Osób</h1>
+            <p class="project-description">
+                Strona ta stanowi interfejs do systemu termowizyjnego i wykrywania osób. Wyświetla dane strumienia wideo w czasie rzeczywistym oraz zapewnia stan wykrywania i odczyty temperatury.
+            </p>
+            <hr>
+        </div>
+        <div class="content-container">
+            <div class="left-container">
+                <div class="info-box">
+                    <h3>Status detekcji</h3>
+                    <div class="infoDiv status-box" id="infoDiv1"></div>
+                </div>
+                <div class="info-box">
+                    <h3>Temperatura</h3>
+                    <div class="infoDiv temperature-box" id="infoDiv2"></div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="video-header">
+                    <span id="timestamp"></span>
+                </div>
+                <div class="videoContainer">
+                    <img id="video" src="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="team-footnote">6 Wspaniałych Team</div>
+        <div class="authors">
+            <ul>
+                <li>Błażej Borowy</li>
+                <li>Igor Czunikin-Krasowicki</li>
+                <li>Patryk Jankowski</li>
+                <li>Anna Muszyńska</li> 
+                <li>Mikołaj Smolarek</li>
+                <li>Wioleta Żochowska</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="/static/frames_video.js"></script>
+    <script>
+        // Update the timestamp every second
+        function updateTimestamp() {
+            const now = new Date();
+            const timestamp = now.toLocaleString();
+            document.getElementById('timestamp').textContent = timestamp;
+        }
+        setInterval(updateTimestamp, 1000);
+    </script>
+</body>
+</html>

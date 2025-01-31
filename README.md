@@ -25,8 +25,8 @@ This project was awarded 3rd place in our group projects class, recognizing its 
 
 ## Photos of the project at the final showcase
 ### Our hardware working wirelessly feat. our quackity operator:
-![Camera with RPi in 3D printed case](Showcase_photos\DSC_2867.JPG)
+![Camera with RPi in 3D printed case](https://github.com/igorekcz/Thermal-camera-with-human-detection-and-webapp/blob/main/Showcase_photos/DSC_2867.JPG?raw=true)
 ### Me explaining the project's code logic:
-![WebApp Live view showcase](Showcase_photos\DSC_2863.JPG)
+![WebApp Live view showcase](https://github.com/igorekcz/Thermal-camera-with-human-detection-and-webapp/blob/main/Showcase_photos/DSC_2863.JPG?raw=true)
 ### Our WebApp closeup:
-![WebApp closeup](Showcase_photos\DSC_2872.JPG)
+![WebApp closeup](https://github.com/igorekcz/Thermal-camera-with-human-detection-and-webapp/blob/main/Showcase_photos/DSC_2872.JPG?raw=true)

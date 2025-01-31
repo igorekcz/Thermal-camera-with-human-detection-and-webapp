@@ -16,7 +16,7 @@ This project involves the development of a thermal camera system capable of dete
 This project was awarded 3rd place in our group projects class, recognizing its innovation and practical application.
 
 ## Contributors
-- **Me** - frame.py and client logic, also VideoCutter.py and VideoPlayer.py for testing different solutions
+- **Me** - frame.py and server logic, also VideoCutter.py and VideoPlayer.py for testing different solutions
 - **[Wioleta Żochowska](https://github.com/wzochows)** - WebApp Backend
 - **[Anna Muszyńska](https://github.com/anikamu)** - WebApp Frontend
 - **[Mikołaj Smolarek](https://github.com/Mikotrion)** - UDP packet sending from RPi & 3D Case modeling for the project
